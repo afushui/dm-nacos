@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="dm-sentinel" />
+        <module name="dm-utils" />
+        <module name="dm-user-provider" />
+        <module name="dm-gateway" />
+        <module name="dm-item-consumer" />
+        <module name="dm-user-consumer" />
+        <module name="dm-item-provider" />
+        <module name="dm-vo" />
+        <module name="dm-schedule-consumer" />
+        <module name="dm-base-provider" />
+        <module name="dm-entity" />
+        <module name="dm-order-consumer" />
+        <module name="dm-openfeign" />
+        <module name="dm-order-provider" />
+        <module name="dm-scheduler-provider" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="dm-base-provider" options="-parameters" />
+      <module name="dm-common" options="-parameters" />
+      <module name="dm-consumer" options="-parameters" />
+      <module name="dm-entity" options="-parameters" />
+      <module name="dm-gateway" options="-parameters" />
+      <module name="dm-item-consumer" options="-parameters" />
+      <module name="dm-item-provider" options="-parameters" />
+      <module name="dm-openfeign" options="-parameters" />
+      <module name="dm-order-consumer" options="-parameters" />
+      <module name="dm-order-provider" options="-parameters" />
+      <module name="dm-provider" options="-parameters" />
+      <module name="dm-schedule-consumer" options="-parameters" />
+      <module name="dm-scheduler-provider" options="-parameters" />
+      <module name="dm-sentinel" options="-parameters" />
+      <module name="dm-user-consumer" options="-parameters" />
+      <module name="dm-user-provider" options="-parameters" />
+      <module name="dm-utils" options="-parameters" />
+      <module name="dm-vo" options="-parameters" />
+    </option>
+  </component>
+</project>
